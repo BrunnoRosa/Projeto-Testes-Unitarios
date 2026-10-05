@@ -11,11 +11,11 @@ public class App {
         ValidarNome meuNome = new ValidarNome();
 
         System.out.print("Validador de Senha");
-        System.out.println("Status: " + minhaSenha.ValidarSenha ("Bruno@1235"));
+        System.out.println("\nStatus: " + minhaSenha.ValidarSenha ("Bruno@1235"));
         System.out.print("Validador de Email");
-        System.out.println("Status: " + meuEmail.ValidarUser("bruno@gmail.com"));
+        System.out.println("\nStatus: " + meuEmail.ValidarUser("bruno@gmail.com"));
         System.out.print("Validador de Nome");
-        System.out.println("Status: " + meuNome.validarNome("Bruno"));
+        System.out.println("\nStatus: " + meuNome.validarNome("Bruno"));
 
     }
 }

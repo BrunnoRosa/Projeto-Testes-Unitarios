@@ -11,7 +11,7 @@ public class ValidacaoSenhaServiceTest {
 
     @Test
     public void deveAceitarSenhaValida() {
-        String senha = "Java@12345";
+        String senha = "Bruno@123456";
         boolean resultado =
                 service.ValidarSenha(senha);
         assertTrue(resultado);
